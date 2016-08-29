@@ -1,6 +1,6 @@
-const http = require('http');
-const Bot = require('messenger-bot');
-const process = require('process');
+const http = require('http')
+const Bot = require('messenger-bot')
+const process = require('process')
 
 let bot = new Bot({
     token: 'EAAJr1PwCOw4BAL6hCTaPRBIylICIYz5zxKojrqgr2QMIvOtltXHCfGov0fqY9SwwWRdcNADEQgkf96TIGZBy8ZC78kMAzMFPyMgsMDSeM2Xb6LenjRCim8FlJvohZAaxbg4QZCAYcywKrNlFCupZCrsWNePqhKAvXmEkLqFSD2QZDZD',
