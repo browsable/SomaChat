@@ -2,7 +2,7 @@ const http = require('http')
 const Bot = require('messenger-bot')
 const process = require('process')
 
-var bot = new Bot({
+let bot = new Bot({
     token: 'EAAJr1PwCOw4BAL6hCTaPRBIylICIYz5zxKojrqgr2QMIvOtltXHCfGov0fqY9SwwWRdcNADEQgkf96TIGZBy8ZC78kMAzMFPyMgsMDSeM2Xb6LenjRCim8FlJvohZAaxbg4QZCAYcywKrNlFCupZCrsWNePqhKAvXmEkLqFSD2QZDZD',
     verify: 'browsable',
     app_secret: '1fb92b98531acb0686178ec69c1e6371'
