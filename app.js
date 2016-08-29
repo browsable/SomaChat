@@ -26,5 +26,5 @@ bot.on('message', (payload, reply) => {
 })
 })
 
-http.createServer(bot.middleware()).listen(process.env.PORT)
+http.createServer(bot.middleware()).listen(process.env.PORT||9000)
 console.log('서버 뜸')
